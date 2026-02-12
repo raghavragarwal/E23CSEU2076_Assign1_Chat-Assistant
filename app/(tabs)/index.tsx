@@ -36,7 +36,7 @@ export default function HomeScreen() {
 
   try {
     const response = await axios.post(
-      'http://10.12.22.71:5000/chat',
+      'http://10.12.144.193:5000/chat',
       { message: userQuery }
     );
 
